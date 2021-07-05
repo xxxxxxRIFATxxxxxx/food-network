@@ -194,12 +194,12 @@ header img {
     margin-right: auto;
 }
 
-.card-container {
+.recipies .card-container {
     display: flex;
     margin-top: 40px;
 }
 
-.card {
+.recipies .card {
     transition: 0.3s;
     padding: 20px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -208,32 +208,32 @@ header img {
     margin: 20px 10px;
 }
 
-.card img {
+.recipies .card img {
     width: 100%;
 }
   
-.card:hover {
+.recipies .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     cursor: pointer;
 }
   
-.card-body {
+.recipies .card-body {
     padding-top: 20px;
 }
 
-.card-body p {
+.recipies .card-body p {
     text-align: justify;
     font-size: 14px;
     padding-top: 10px;
 }
 
 @media only screen and (max-width: 992px) {
-    .card-container {
+    .recipies .card-container {
         display: flex;
         flex-direction: column;
     }
 
-    .card {
+    .recipies .card {
         width: 100%;
         margin-bottom: 5px;
     }
@@ -243,4 +243,37 @@ header img {
         text-align: justify;
         padding: 0 10px;
     }    
+}
+
+/* Subscribers */
+.subscribers .card {
+    transition: 0.3s;
+    padding: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 100%;
+}
+  
+.subscribers .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.subscribers .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribers .card-body div {
+    width: 33.33%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .subscribers .card-body {
+        display: flex;
+        flex-direction: column;
+    }
 }

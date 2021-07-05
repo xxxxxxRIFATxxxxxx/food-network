@@ -235,7 +235,7 @@ header img {
 
     .recipies .card {
         width: 100%;
-        margin-bottom: 5px;
+        margin: 0 0 20px 0;
     }
 
     .recipies .paragraph-container {
@@ -320,7 +320,7 @@ header img {
 
     .clients .card {
         width: 100%;
-        margin-bottom: 5px;
+        margin: 0 0 20px 0;
     } 
 }
 

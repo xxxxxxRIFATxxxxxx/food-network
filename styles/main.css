@@ -277,3 +277,18 @@ header img {
         flex-direction: column;
     }
 }
+
+/* Footer CSS */
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    color: #dfdede;
+    padding: 40px 0;
+}
+
+footer h3 {
+    font-size: 25px;
+    color: #5B5B5B;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}

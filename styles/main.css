@@ -278,6 +278,52 @@ header img {
     
 }
 
+/* Clients Review CSS */
+.clients .card-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.clients h2, h3 {
+    text-align: center;
+}
+
+.clients .card {
+    transition: 0.3s;
+    padding: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    width: 33%;
+    margin: 20px 10px;
+}
+
+.clients .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+  
+.clients .card-body {
+    padding-top: 20px;
+}
+
+.clients .card-body p {
+    text-align: justify;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .clients .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clients .card {
+        width: 100%;
+        margin-bottom: 5px;
+    } 
+}
+
 /* Subscribers */
 .subscribers .card {
     transition: 0.3s;

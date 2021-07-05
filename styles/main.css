@@ -246,23 +246,23 @@ header img {
 }
 
 /* Contact CSS */
-.contact {
+#contact {
     transition: 0.3s;
     border-radius: 20px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
     padding: 50px 100px;
 }
 
-.contact h2 {
+#contact h2 {
     text-align: center;
 }
 
-.contact:hover {
+#contact:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     cursor: pointer;
 }
 
-.contact input, textarea {
+#contact input, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -272,7 +272,7 @@ header img {
 }
 
 @media only screen and (max-width: 992px) {
-    .contact {
+    #contact {
         padding: 20px;
     }
     

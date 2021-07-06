@@ -153,7 +153,7 @@ header img {
 }
 
 .about-bg {
-    background-image: url("/images/about-bg.png");
+    background-image: url("../images/about-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
